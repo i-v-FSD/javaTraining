@@ -1,15 +1,15 @@
-# 005_2
+# 005_2 インターフェイス
 
 以下の2問を解いてください。
 
-A. Parentと言う名前のインターフェイスを継承したChildrenクラスを作成してください。
+A. ToImplementと言う名前のインターフェイスを継承したChildrenクラスを作成してください。またToImplementインターフェイスのdefaultメソッドをオーバーライドしてください。
 
-B. 作成したChildrenクラスでParentインターフェイスのdefaultメソッドをオーバーライドし実行してください。
+B. 先ほど作成したChildrenクラスでインスタンスを生成し、先ほどオーバーライドしたメソッドを実行してください
 
 
 インターフェイスParent
 
-interface Parent{
+interface ToImplement{
   default void hello(){
     System.out.println("hello");
   }

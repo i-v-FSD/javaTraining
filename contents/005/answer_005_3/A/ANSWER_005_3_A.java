@@ -1,10 +1,11 @@
 package answer_005_3.A;
 
-abstract class Parent {
+abstract class Abstract {
   public abstract void hello();
 }
 
-class Children extends Parent {
+class Children extends Abstract {
   public void hello() {
+    System.out.println("hello!");
   };
 }

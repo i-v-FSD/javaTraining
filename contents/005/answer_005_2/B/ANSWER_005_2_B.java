@@ -1,12 +1,12 @@
 package answer_005_2.B;
 
-interface Parent {
+interface ToImplement {
   default void hello() {
     System.out.println("hello");
   }
 }
 
-class Children implements Parent {
+class Children implements ToImplement {
   @Override
   public void hello() {
     System.out.println("GoodBye!");

@@ -1,10 +1,10 @@
 package answer_005_3.B;
 
-abstract class Parent {
+abstract class Abstract {
   public abstract void hello();
 }
 
-class Children extends Parent {
+class Children extends Abstract {
   @Override
   public void hello() {
     System.out.println("hello!");

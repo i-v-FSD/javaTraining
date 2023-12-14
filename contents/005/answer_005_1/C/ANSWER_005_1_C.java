@@ -9,6 +9,7 @@ class Parents {
 class Children extends Parents {
   @Override
   public void hello() {
+    super.hello();
     System.out.println("GoodBye!");
   }
 }

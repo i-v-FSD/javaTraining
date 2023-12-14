@@ -7,6 +7,11 @@ class Parents {
 }
 
 class Children extends Parents {
+
+  @Override
+  public void hello() {
+    System.out.println("GoodBye!");
+  }
 }
 
 public class ANSWER_005_1_B {
